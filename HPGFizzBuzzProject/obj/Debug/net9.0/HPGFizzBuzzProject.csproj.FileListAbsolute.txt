@@ -1,0 +1,15 @@
+C:\Users\AdamWatson\source\repos\HPGFizzBuzzProject\HPGFizzBuzzProject\bin\Debug\net9.0\HPGFizzBuzzProject.exe
+C:\Users\AdamWatson\source\repos\HPGFizzBuzzProject\HPGFizzBuzzProject\bin\Debug\net9.0\HPGFizzBuzzProject.deps.json
+C:\Users\AdamWatson\source\repos\HPGFizzBuzzProject\HPGFizzBuzzProject\bin\Debug\net9.0\HPGFizzBuzzProject.runtimeconfig.json
+C:\Users\AdamWatson\source\repos\HPGFizzBuzzProject\HPGFizzBuzzProject\bin\Debug\net9.0\HPGFizzBuzzProject.dll
+C:\Users\AdamWatson\source\repos\HPGFizzBuzzProject\HPGFizzBuzzProject\bin\Debug\net9.0\HPGFizzBuzzProject.pdb
+C:\Users\AdamWatson\source\repos\HPGFizzBuzzProject\HPGFizzBuzzProject\obj\Debug\net9.0\HPGFizzBuzzProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AdamWatson\source\repos\HPGFizzBuzzProject\HPGFizzBuzzProject\obj\Debug\net9.0\HPGFizzBuzzProject.AssemblyInfoInputs.cache
+C:\Users\AdamWatson\source\repos\HPGFizzBuzzProject\HPGFizzBuzzProject\obj\Debug\net9.0\HPGFizzBuzzProject.AssemblyInfo.cs
+C:\Users\AdamWatson\source\repos\HPGFizzBuzzProject\HPGFizzBuzzProject\obj\Debug\net9.0\HPGFizzBuzzProject.csproj.CoreCompileInputs.cache
+C:\Users\AdamWatson\source\repos\HPGFizzBuzzProject\HPGFizzBuzzProject\obj\Debug\net9.0\HPGFizzBuzzProject.sourcelink.json
+C:\Users\AdamWatson\source\repos\HPGFizzBuzzProject\HPGFizzBuzzProject\obj\Debug\net9.0\HPGFizzBuzzProject.dll
+C:\Users\AdamWatson\source\repos\HPGFizzBuzzProject\HPGFizzBuzzProject\obj\Debug\net9.0\refint\HPGFizzBuzzProject.dll
+C:\Users\AdamWatson\source\repos\HPGFizzBuzzProject\HPGFizzBuzzProject\obj\Debug\net9.0\HPGFizzBuzzProject.pdb
+C:\Users\AdamWatson\source\repos\HPGFizzBuzzProject\HPGFizzBuzzProject\obj\Debug\net9.0\HPGFizzBuzzProject.genruntimeconfig.cache
+C:\Users\AdamWatson\source\repos\HPGFizzBuzzProject\HPGFizzBuzzProject\obj\Debug\net9.0\ref\HPGFizzBuzzProject.dll
