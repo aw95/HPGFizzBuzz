@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AdamWatson\\source\\repos\\HPGFizzBuzzProject\\HPGFizzBuzzProject\\HPGFizzBuzzProject.csproj": {}
+    "C:\\Users\\AdamWatson\\Source\\Repos\\HPGFizzBuzz\\HPGFizzBuzzProject\\HPGFizzBuzzProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AdamWatson\\source\\repos\\HPGFizzBuzzProject\\HPGFizzBuzzProject\\HPGFizzBuzzProject.csproj": {
+    "C:\\Users\\AdamWatson\\Source\\Repos\\HPGFizzBuzz\\HPGFizzBuzzProject\\HPGFizzBuzzProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AdamWatson\\source\\repos\\HPGFizzBuzzProject\\HPGFizzBuzzProject\\HPGFizzBuzzProject.csproj",
+        "projectUniqueName": "C:\\Users\\AdamWatson\\Source\\Repos\\HPGFizzBuzz\\HPGFizzBuzzProject\\HPGFizzBuzzProject.csproj",
         "projectName": "HPGFizzBuzzProject",
-        "projectPath": "C:\\Users\\AdamWatson\\source\\repos\\HPGFizzBuzzProject\\HPGFizzBuzzProject\\HPGFizzBuzzProject.csproj",
+        "projectPath": "C:\\Users\\AdamWatson\\Source\\Repos\\HPGFizzBuzz\\HPGFizzBuzzProject\\HPGFizzBuzzProject.csproj",
         "packagesPath": "C:\\Users\\AdamWatson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AdamWatson\\source\\repos\\HPGFizzBuzzProject\\HPGFizzBuzzProject\\obj\\",
+        "outputPath": "C:\\Users\\AdamWatson\\Source\\Repos\\HPGFizzBuzz\\HPGFizzBuzzProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
