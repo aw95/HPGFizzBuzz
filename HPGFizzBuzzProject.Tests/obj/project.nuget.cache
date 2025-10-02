@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "oMoz74xUS0A=",
+  "dgSpecHash": "bSnNROLjiMw=",
   "success": true,
   "projectFilePath": "C:\\Users\\AdamWatson\\Source\\Repos\\HPGFizzBuzz\\HPGFizzBuzzProject.Tests\\HPGFizzBuzzProject.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AdamWatson\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\AdamWatson\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
+    "C:\\Users\\AdamWatson\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.9\\microsoft.extensions.dependencyinjection.9.0.9.nupkg.sha512",
+    "C:\\Users\\AdamWatson\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.9\\microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg.sha512",
     "C:\\Users\\AdamWatson\\.nuget\\packages\\microsoft.net.test.sdk\\17.12.0\\microsoft.net.test.sdk.17.12.0.nupkg.sha512",
     "C:\\Users\\AdamWatson\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.12.0\\microsoft.testplatform.objectmodel.17.12.0.nupkg.sha512",
     "C:\\Users\\AdamWatson\\.nuget\\packages\\microsoft.testplatform.testhost\\17.12.0\\microsoft.testplatform.testhost.17.12.0.nupkg.sha512",

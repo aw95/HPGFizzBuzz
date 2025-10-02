@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xky1qb0tAC4=",
+  "dgSpecHash": "gHjQN0/a6r0=",
   "success": true,
   "projectFilePath": "C:\\Users\\AdamWatson\\Source\\Repos\\HPGFizzBuzz\\HPGFizzBuzzProject\\HPGFizzBuzzProject.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\AdamWatson\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.9\\microsoft.extensions.dependencyinjection.9.0.9.nupkg.sha512",
+    "C:\\Users\\AdamWatson\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.9\\microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg.sha512"
+  ],
   "logs": []
 }

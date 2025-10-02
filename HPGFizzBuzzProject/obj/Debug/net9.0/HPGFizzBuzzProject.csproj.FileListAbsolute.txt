@@ -28,3 +28,7 @@ C:\Users\AdamWatson\Source\Repos\HPGFizzBuzz\HPGFizzBuzzProject\obj\Debug\net9.0
 C:\Users\AdamWatson\Source\Repos\HPGFizzBuzz\HPGFizzBuzzProject\obj\Debug\net9.0\HPGFizzBuzzProject.pdb
 C:\Users\AdamWatson\Source\Repos\HPGFizzBuzz\HPGFizzBuzzProject\obj\Debug\net9.0\HPGFizzBuzzProject.genruntimeconfig.cache
 C:\Users\AdamWatson\Source\Repos\HPGFizzBuzz\HPGFizzBuzzProject\obj\Debug\net9.0\ref\HPGFizzBuzzProject.dll
+C:\Users\AdamWatson\Source\Repos\HPGFizzBuzz\HPGFizzBuzzProject\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\AdamWatson\Source\Repos\HPGFizzBuzz\HPGFizzBuzzProject\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\AdamWatson\Source\Repos\HPGFizzBuzz\HPGFizzBuzzProject\obj\Debug\net9.0\HPGFizzBuzzProject.csproj.AssemblyReference.cache
+C:\Users\AdamWatson\Source\Repos\HPGFizzBuzz\HPGFizzBuzzProject\obj\Debug\net9.0\HPGFizzB.D04CFA2B.Up2Date

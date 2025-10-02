@@ -1,16 +1,20 @@
 ﻿using HPGFizzBuzzProject.Services;
 using HPGFizzBuzzProject.Services.Interfaces;
+using Microsoft.Extensions.DependencyInjection;
 
 public class Program
 {
     public static void Main(string[] args)
     {
-        List<int> numbers = Enumerable.Range(1, 100).ToList();
+        var serviceProvider = new ServiceCollection()
+                            .AddScoped<IFizzBuzzService, FizzBuzzService>()
+                            .BuildServiceProvider();
 
-        var fizzBuzzService = new FizzBuzzService();
+        var fizzBuzzService = serviceProvider.GetRequiredService<IFizzBuzzService>();
 
-        var result = fizzBuzzService.GetFizzBuzzOutput(numbers);
+        var numbers = Enumerable.Range(1, 100).ToList();
+        var output = fizzBuzzService.GetFizzBuzzOutput(numbers);
 
-        result.ForEach(Console.WriteLine);
+        output.ForEach(Console.WriteLine);
     }
 }

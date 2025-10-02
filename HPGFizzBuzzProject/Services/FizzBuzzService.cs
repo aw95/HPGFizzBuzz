@@ -13,21 +13,18 @@ namespace HPGFizzBuzzProject.Services
     {
         public List<string> GetFizzBuzzOutput(List<int> numbers)
         {
-            List<string> output = new List<string>();
+            if (numbers == null) throw new ArgumentNullException(nameof(numbers));
 
-            foreach (int number in numbers)
+            return numbers.Select(number =>
             {
-                if (number % FizzBuzzConfig.FizzDivisor == 0 && number % FizzBuzzConfig.BuzzDivisor == 0)
-                    output.Add(FizzBuzzValue.FizzBuzz.ToString());
-                else if (number % FizzBuzzConfig.FizzDivisor == 0)
-                    output.Add(FizzBuzzValue.Fizz.ToString());
-                else if (number % FizzBuzzConfig.BuzzDivisor == 0)
-                    output.Add(FizzBuzzValue.Buzz.ToString());
-                else
-                    output.Add(number.ToString());
-            }
-
-            return output;
+                return (number % FizzBuzzConfig.FizzDivisor, number % FizzBuzzConfig.BuzzDivisor) switch
+                {
+                    (0, 0) => FizzBuzzValue.FizzBuzz.ToString(),
+                    (0, _) => FizzBuzzValue.Fizz.ToString(),
+                    (_, 0) => FizzBuzzValue.Buzz.ToString(),
+                    _ => number.ToString()
+                };
+            }).ToList();
         }
     }
 }

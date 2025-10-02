@@ -1,5 +1,6 @@
 ﻿using HPGFizzBuzzProject.Services;
 using HPGFizzBuzzProject.Services.Interfaces;
+using Microsoft.Extensions.DependencyInjection;
 
 
 namespace HPGFizzBuzzProject.Tests
@@ -10,7 +11,11 @@ namespace HPGFizzBuzzProject.Tests
 
         public FizzBuzzServiceTests()
         {
-            _service = new FizzBuzzService();
+            var serviceProvider = new ServiceCollection()
+                .AddScoped<IFizzBuzzService, FizzBuzzService>()
+                .BuildServiceProvider();
+
+            _service = serviceProvider.GetRequiredService<IFizzBuzzService>();
         }
 
         [Fact]

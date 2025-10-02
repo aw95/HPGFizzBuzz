@@ -210,3 +210,5 @@ C:\Users\AdamWatson\Source\Repos\HPGFizzBuzz\HPGFizzBuzzProject.Tests\obj\Debug\
 C:\Users\AdamWatson\Source\Repos\HPGFizzBuzz\HPGFizzBuzzProject.Tests\obj\Debug\net9.0\HPGFizzBuzzProject.Tests.pdb
 C:\Users\AdamWatson\Source\Repos\HPGFizzBuzz\HPGFizzBuzzProject.Tests\obj\Debug\net9.0\HPGFizzBuzzProject.Tests.genruntimeconfig.cache
 C:\Users\AdamWatson\Source\Repos\HPGFizzBuzz\HPGFizzBuzzProject.Tests\obj\Debug\net9.0\ref\HPGFizzBuzzProject.Tests.dll
+C:\Users\AdamWatson\Source\Repos\HPGFizzBuzz\HPGFizzBuzzProject.Tests\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\AdamWatson\Source\Repos\HPGFizzBuzz\HPGFizzBuzzProject.Tests\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HPGFizzBuzzProject.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afd6f452b3ad1e2b986545684630767442002f81")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99578276c96f3c97f4a3329dcb0c3e944f1b270d")]
 [assembly: System.Reflection.AssemblyProductAttribute("HPGFizzBuzzProject.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HPGFizzBuzzProject.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
