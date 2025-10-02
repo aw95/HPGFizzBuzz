@@ -2,7 +2,6 @@
 using HPGFizzBuzzProject.Services.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
-
 namespace HPGFizzBuzzProject.Tests
 {
     public class FizzBuzzServiceTests
@@ -75,7 +74,7 @@ namespace HPGFizzBuzzProject.Tests
         }
 
         [Fact]
-        public void GetFizzBuzzOutput_EmptyList_ShouldReturnNumberValue()
+        public void GetFizzBuzzOutput_NonMatchingNumbers_ShouldReturnNumberValue()
         {
             // Arrange
             var input = new List<int>() { 1, 2, 4, 7 };

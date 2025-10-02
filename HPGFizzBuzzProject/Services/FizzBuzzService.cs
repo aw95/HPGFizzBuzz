@@ -1,29 +1,34 @@
-﻿using HPGFizzBuzzProject.Config;
-using HPGFizzBuzzProject.Enums;
+﻿using HPGFizzBuzzProject.Rules;
 using HPGFizzBuzzProject.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using System.Reflection;
 namespace HPGFizzBuzzProject.Services
 {
     public class FizzBuzzService : IFizzBuzzService
     {
+        private readonly List<MethodInfo> _ruleMethods;
+
+        public FizzBuzzService()
+        {
+            _ruleMethods = typeof(FizzBuzzRules)
+                .GetMethods(BindingFlags.Public | BindingFlags.Static)
+                .Where(m => m.GetCustomAttribute<FizzBuzzRuleAttribute>() != null)
+                .ToList();
+        }
+
         public List<string> GetFizzBuzzOutput(List<int> numbers)
         {
             if (numbers == null) throw new ArgumentNullException(nameof(numbers));
 
-            return numbers.Select(number =>
+            return numbers.Select(n =>
             {
-                return (number % FizzBuzzConfig.FizzDivisor, number % FizzBuzzConfig.BuzzDivisor) switch
+                foreach (var method in _ruleMethods)
                 {
-                    (0, 0) => FizzBuzzValue.FizzBuzz.ToString(),
-                    (0, _) => FizzBuzzValue.Fizz.ToString(),
-                    (_, 0) => FizzBuzzValue.Buzz.ToString(),
-                    _ => number.ToString()
-                };
+                    var result = method.Invoke(null, new object[] { n }) as string;
+                    if (!string.IsNullOrEmpty(result))
+                        return result;
+                }
+
+                return n.ToString();
             }).ToList();
         }
     }

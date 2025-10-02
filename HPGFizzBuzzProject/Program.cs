@@ -6,9 +6,9 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var serviceProvider = new ServiceCollection()
-                            .AddScoped<IFizzBuzzService, FizzBuzzService>()
-                            .BuildServiceProvider();
+         var serviceProvider = new ServiceCollection()
+            .AddScoped<IFizzBuzzService, FizzBuzzService>()
+            .BuildServiceProvider();
 
         var fizzBuzzService = serviceProvider.GetRequiredService<IFizzBuzzService>();
 
