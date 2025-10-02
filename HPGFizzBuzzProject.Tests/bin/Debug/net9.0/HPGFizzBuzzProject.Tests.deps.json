@@ -27,6 +27,25 @@
           }
         }
       },
+      "Microsoft.Extensions.DependencyInjection/9.0.9": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.9"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.925.41916"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.9": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.925.41916"
+          }
+        }
+      },
       "Microsoft.NET.Test.Sdk/17.12.0": {
         "dependencies": {
           "Microsoft.CodeCoverage": "17.12.0",
@@ -342,6 +361,9 @@
       },
       "xunit.runner.visualstudio/2.8.2": {},
       "HPGFizzBuzzProject/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "9.0.9"
+        },
         "runtime": {
           "HPGFizzBuzzProject.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -370,6 +392,20 @@
       "sha512": "sha512-4svMznBd5JM21JIG2xZKGNanAHNXplxf/kQDFfLHXQ3OnpJkayRK/TjacFjA+EYmoyuNXHo/sOETEfcYtAzIrA==",
       "path": "microsoft.codecoverage/17.12.0",
       "hashPath": "microsoft.codecoverage.17.12.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/9.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zQV2WOSP+3z1EuK91ULxfGgo2Y75bTRnmJHp08+w/YXAyekZutX/qCd88/HOMNh35MDW9mJJJxPpMPS+1Rww8A==",
+      "path": "microsoft.extensions.dependencyinjection/9.0.9",
+      "hashPath": "microsoft.extensions.dependencyinjection.9.0.9.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/hymojfWbE9AlDOa0mczR44m00Jj+T3+HZO0ZnVTI032fVycI0ZbNOVFP6kqZMcXiLSYXzR2ilcwaRi6dzeGyA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.9",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg.sha512"
     },
     "Microsoft.NET.Test.Sdk/17.12.0": {
       "type": "package",
